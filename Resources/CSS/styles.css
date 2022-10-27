@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+    color: #000;
+}
+
+.container {
+    margin: 0 auto;
+    padding: .75rem;
+}
+
+.title {
+    margin: 1rem 0.5rem;
+}
+
+.navigation {
+    margin: 1rem 0.5rem;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.navigation li {
+    text-decoration: underline;
+}
+
+.navigation-section {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-item {
+    margin-right: 3rem;
+}
+
+.experience {
+    background-image: url("../Images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    min-width: 100%;
+}
+
+.experience-content {
+    background-color: #fff;
+    min-height: 100px;
+    margin: auto;
+    min-width: 100%;
+    text-align: center;
+}
+
+.experience-content h2 {
+    margin: 1rem;
+}
+
+.experience {
+    display: flex;
+}
+
+.companies img {
+    height: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+    justify-content: space-between;
+}
+
+.portfolio-container {
+    text-align: center;
+}
+
+.company span {
+    margin: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.teammate img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+
