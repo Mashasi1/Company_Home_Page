@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 16px;
-    font-family: 'Roboto Mono', monospace;
+body {
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
 }
 
 a {
@@ -21,19 +24,11 @@ li {
 
 .container {
     margin: 0 auto;
-    padding: .75rem;
-}
-
-.title {
-    margin: 1rem 0.5rem;
+    padding-top: 2rem;
 }
 
 .navigation {
-    margin: 1rem 0.5rem;
-}
-
-.title h1 {
-    text-align: center;
+    padding-top: 1.5rem;
 }
 
 .navigation li {
@@ -47,10 +42,11 @@ li {
 
 .navigation-item {
     margin-right: 3rem;
+    padding: .5rem;
 }
 
 .experience {
-    background-image: url("../Images/banner.jpg");
+    background-image: url("../Images/skyscrapers.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -67,7 +63,11 @@ li {
 }
 
 .experience-content h2 {
-    margin: 1rem;
+    padding: 1rem;
+}
+
+.experience-content p {
+    padding: 1rem;
 }
 
 .experience {
@@ -75,9 +75,11 @@ li {
 }
 
 .companies img {
-    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
-    height: 200px;
+    padding: 10px;
+    height: auto;
 }
 
 .companies {
@@ -90,7 +92,6 @@ li {
 .company {
     display: flex;
     align-items: center;
-    margin-right: 4rem;
     justify-content: space-between;
 }
 
@@ -98,9 +99,18 @@ li {
     text-align: center;
 }
 
+.portfolio-container h2 {
+    padding: 1rem;
+}
+
+.portfolio-container p {
+    padding: 1rem;
+}
+
 .company span {
-    margin: 10px;
-    font-size: 1.5rem;
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -109,6 +119,42 @@ li {
     height: auto;
 }
 
+.team {
+    background-image: url("../Images/blurred-road.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    min-width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate h3 {
+    color: #fff;
+    padding: .5rem;
+}
+
+.teammate p {
+    color: #fff;
+    padding: .5rem;
+}
+
+.teammate {
+    flex-basis: 17.5rem;
+}
+
+.copyright {
+    margin-bottom: 2rem;
+}
+
+.contact a {
+    display: block;
+    padding: 1rem;
+}
 
 
 
