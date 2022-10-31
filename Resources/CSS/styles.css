@@ -27,6 +27,8 @@ li {
     padding-top: 2rem;
 }
 
+/* Header */
+
 .navigation {
     padding-top: 1.5rem;
 }
@@ -44,6 +46,24 @@ li {
     margin-right: 3rem;
     padding: .5rem;
 }
+
+@media only screen and (max-width: 670px) {
+    .navigation-section {
+        flex-direction: column;
+    }
+
+    .navigation-item {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .title h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Banner */
 
 .experience {
     background-image: url("../Images/skyscrapers.webp");
@@ -73,6 +93,19 @@ li {
 .experience {
     display: flex;
 }
+
+@media only screen and (max-width: 530px) {
+    .experience-content {
+        background-image: url("../Images/skyscrapers.webp");
+        color: #fff;
+    }
+
+    .experience {
+        background: none;
+    }
+}
+
+/* Portfolio */
 
 .companies img {
     margin-left: auto;
@@ -114,6 +147,15 @@ li {
     text-align: center;
 }
 
+@media only screen and (max-width: 880px) {
+    .company {
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+}
+
+/* Team */
+
 .teammate img {
     width: 200px;
     height: auto;
@@ -147,13 +189,40 @@ li {
     flex-basis: 17.5rem;
 }
 
-.copyright {
-    margin-bottom: 2rem;
+@media only screen and (max-width: 870px) {
+    .teammate {
+        padding-bottom: 1.5rem;
+    }
 }
+
+/* Contact */
 
 .contact a {
     display: block;
     padding: 1rem;
+}
+
+/* Copyright */
+
+.copyright {
+    margin-bottom: 2rem;
+}
+
+.copyright h5 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 590px) {
+    .contact a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .contact a {
+        font-size: .7rem;
+    }
 }
 
 
