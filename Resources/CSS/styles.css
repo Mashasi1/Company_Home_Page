@@ -24,7 +24,7 @@ li {
 
 .container {
     margin: 0 auto;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 /* Header */
@@ -33,7 +33,7 @@ li {
     padding-top: 1.5rem;
 }
 
-.navigation li {
+.navigation-item a {
     text-decoration: underline;
 }
 
@@ -46,6 +46,12 @@ li {
     margin-right: 3rem;
     padding: .5rem;
 }
+
+.navigation-item a:hover {
+    color: #808080;
+    text-decoration: none;
+}
+
 
 @media only screen and (max-width: 670px) {
     .navigation-section {
@@ -75,7 +81,8 @@ li {
 }
 
 .experience-content {
-    background-color: #fff;
+    background-color: #000;
+    color:#fff;
     min-height: 100px;
     margin: auto;
     min-width: 100%;
@@ -98,6 +105,10 @@ li {
     .experience-content {
         background-image: url("../Images/skyscrapers.webp");
         color: #fff;
+    }
+
+    .experience-content-background {
+        background-color: rgba(0, 0, 0, 0.6);
     }
 
     .experience {
@@ -133,11 +144,11 @@ li {
 }
 
 .portfolio-container h2 {
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .portfolio-container p {
-    padding: 1rem;
+    padding-bottom: 3rem;
 }
 
 .company span {
@@ -150,7 +161,7 @@ li {
 @media only screen and (max-width: 880px) {
     .company {
         flex-direction: column;
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
     }
 }
 
@@ -162,17 +173,20 @@ li {
 }
 
 .team {
-    background-image: url("../Images/blurred-road.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     min-height: 300px;
     min-width: 100%;
     margin-top: 1rem;
     display: flex;
-    padding: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.team-background {
+    background-image: url("../Images/blurred-road.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .teammate h3 {
@@ -187,11 +201,17 @@ li {
 
 .teammate {
     flex-basis: 17.5rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.team-container h2 {
+    padding-bottom: 1rem;
 }
 
 @media only screen and (max-width: 870px) {
     .teammate {
-        padding-bottom: 1.5rem;
+        padding-bottom: 2rem;
     }
 }
 
@@ -199,6 +219,10 @@ li {
 
 .contact a {
     display: block;
+    padding-bottom: .5rem;
+}
+
+.contact h2 {
     padding: 1rem;
 }
 
